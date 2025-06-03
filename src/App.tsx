@@ -8,10 +8,18 @@ function App() {
 
   return (
     <>
-    
+      <div>
+        <a href="https://vite.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
+      <h1>Vite + React</h1>
 
       <h2>Hello Mom  AGAIN</h2>
-      <iframe title="JD Sales Dashboard" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=80ba9615-bd2f-4ca3-b946-360c95e4eadc&autoAuth=true&ctid=d918c084-0755-4a33-8652-e1ec7e4406e1" frameborder="0" allowFullScreen="true"></iframe>
+      
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
