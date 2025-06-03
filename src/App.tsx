@@ -16,10 +16,16 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
-
-      <h2>Hello Mom  AGAIN</h2>
-      
+      <h2>My test Static Web Page</h2>
+      <h3>So going to embed an iFrame to try and view PowerBI Dashboards</h3>
+      {/* <iframe
+        title="JD Sales Dashboard"
+        width="1120"
+        height="550"
+        src="https://app.powerbi.com/reportEmbed?reportId=80ba9615-bd2f-4ca3-b946-360c95e4eadc&autoAuth=true&ctid=d918c084-0755-4a33-8652-e1ec7e4406e1"
+        frameBorder="1"
+        allowFullScreen={true}
+      /> */}
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
